@@ -69,7 +69,7 @@ with gr.Blocks(theme=gr.themes.Soft(), css=css_code) as demo:
         gr.Markdown("### ⚠️ Lowest Sentiment")
         neg_df = gr.DataFrame(elem_classes="fixed-height-table")
 
-    with gr.Tab("All Comments (Raw Signals)"):
+    with gr.Tab("Comments (Raw Signals)"):
         gr.Markdown("### 🕵️ Bottom-Up Audit")
         full_df = gr.DataFrame(interactive=False, elem_classes="fixed-height-table")
 
