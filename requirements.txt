@@ -1,0 +1,5 @@
+gradio
+supabase
+pandas
+vaderSentiment
+plotly
